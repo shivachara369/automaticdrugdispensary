@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+.old{
+    color: #5886b0;
+    margin-top:-120%;
+    font-size: xx-large;
+}  
+ul {
+    list-style: none;
+    padding: 0;
+  }
+/* Style for each prescription item */
+.pres {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: black;
+  }
+.para5{
+    color: white;
+    margin-left:50px;
+}

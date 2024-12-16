@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Your+Chosen+Font&display=swap');
+
+
+
+
+.app {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url('https://www.shutterstock.com/image-photo/supplements-tablets-pills-capsules-drugs-600nw-2165811101.jpg');
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .info-container {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-100%, -50%);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+  }
+  
+  .animated-photo {
+    position: absolute;
+    /* top: 50%;
+    left: 30%; */
+    transform: translate(+35%, +25%) scale(1);
+    transition: transform 2s ease, width 3s ease, height 3s ease; /* Add transitions for transform, width, and height properties */
+  }
+  
+  .move-to-top-left {
+    transform: translate(-40%, -40%) scale(0.14);
+    transition: transform 2s ease, width 3s ease, height 3s ease; /* Scale down the image */
+  }
+  
+  
+  
+  
+  
+  
+  .app.clicked .info-container {
+    display: none;
+  }
+  
+  .app.clicked .animated-photo {
+    transform: translate(-40%, -40%) scale(0.14);
+    /* border-radius: 250px; Scale down the image on click */
+  }
+  
+  .app.clicked .buttons-container {
+    display: block;
+  }
+  .Information{
+    width:48%;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    margin-left: 0%;
+    margin-right: -20%;
+    
+    
+  }
+  /* .head{
+    font:  2px;;
+    color: rgb(123, 127, 177);
+    margin-left:50px;
+    font-family:unset;
+    margin-bottom: 10px;
+  }   */
+  .head1{
+    padding-top:5%;
+    font-size:180%;
+    color: rgb(123, 127, 177);
+    margin-left:50px;
+    /* margin-top: 10%; */
+    font-family:unset;
+    margin-bottom: 10px;
+  }
+  .para1{
+    color:#75757b;
+    margin-left: 20px;
+    padding-top: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+  }
+  .traley{
+    position: absolute;
+    margin-top: 13%;
+    margin-left:12%;
+    height: 50%;
+    width: 30%;
+  }
+  /* style2.css */
+  .pop-out {
+    transform: scale(1.2); /* You can adjust the scale factor as needed */
+    transition: transform 3s ease; /* Adjust the transition duration and easing as needed */
+  }
+  .signin {
+    background-color: pink;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .register {
+    background-color: pink;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .welcome {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    
+  }
+  .ADD {
+    padding-top: 0%;
+    font-size: 20px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .register{
+    margin-left: 25%;
+    background-color: rgb(130, 167, 167);
+    height:50px;
+    font-size: larger;
+    font-family: 'Georgia', serif;
+    overflow: hidden;
+    border: black;
+    color: rgb(10, 10, 10);
+    animation: mymove 2s infinite;
+  }
+  @keyframes mymove {
+    from {background-color:rgb(249, 248, 248) ;}
+    to {background-color: rgba(36, 38, 43, 0.866);}
+  }

@@ -1,0 +1,77 @@
+/* doctorpage.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),url('https://thumbs.dreamstime.com/b/stethoscope-isolated-black-background-top-view-photograph-sterile-doctors-office-desk-medical-accessories-reflective-table-94174159.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+  }
+  
+  .menu-container {
+    width: 250px;
+    height: 700px;
+    /* background-color: black; */
+    padding: 10px;
+    margin-left: 10px;
+  }
+  
+  .menu-item {
+    list-style: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+    /* background-color: #000000; Default background color */
+    color: #fff; /* Default text color */
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    display: flex; /* Add this to make the entire area hoverable */
+    align-items: center;
+    border-color: rgb(248, 246, 246);
+  }
+  
+  /* Style for the active menu item */
+  .menu-item.active {
+    font-weight: bold;
+    color: rgb(14, 77, 111);
+  }
+  
+  /* Change background color on hover */
+  .menu-item:hover {
+    background-color: #313233; /* Updated background color on hover */
+  }
+  
+  /* Style for the content container */
+  .content-container {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: -35%;
+  }
+  
+  .para1 {
+    font-family:'Arial', sans-serif;
+    color:#5a8aac;
+    margin-top: -100%;
+    margin-left: -10%;
+    font-size:xx-large;
+  }
+  
+  .fa-solid fa-user {
+    color: #fff;
+    margin-bottom: -100px;
+  }
+  
+  .para2 {
+    font-family:'Arial', sans-serif;
+    color:#5a8aac;
+    margin-left: -10%;
+    font-size:x-large;
+  }

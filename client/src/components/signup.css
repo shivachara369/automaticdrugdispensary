@@ -1,0 +1,142 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),url('https://thumbs.dreamstime.com/b/medicine-pattern-white-outline-black-background-vector-illustration-design-background-pattern-theme-medicine-white-183387578.jpg'); 
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.sign-up {
+  background-color: rgba(5, 4, 4, 0.9);
+  align-items: center;
+  margin-left: -0px;
+  margin-top: 0%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  height: 600px;
+}
+
+.form-title {
+  text-align: center;
+  color:#5c5f62;
+}
+
+.signup-form {
+  margin-top: 0%;
+   
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 10px;
+  width: 380px;
+  
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #333;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  color: aliceblue;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+ 
+}
+
+.form button {
+  text-align: center;
+}
+
+.submit {
+  padding: 10px;
+  background-color: #5a8aac;
+  color:white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+ align-items: center;
+}
+
+.submit:hover {
+  background-color:#3082bc;
+}
+
+/* Add styles for NavLink */
+a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1e87f0;
+}
+.registered{
+  color: white;
+}
+/* Add some padding to the left of the input fields */
+.form-group input {
+  padding-left: 30px; /* Adjust the padding as needed */
+}
+
+/* Add some spacing between icons and input fields */
+.form-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.form-group label {
+  display: flex;
+  align-items: center;
+    /* Adjust the margin as needed */
+}
+
+/* Style the icons to be white */
+.form-group label .svg-inline--fa {
+  color: white;
+  margin-bottom:-20px
+ 
+}
+.password-toggle-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 65%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: white;
+}
+.form-group form button{
+  color: #818291;
+}
+.password-error{
+  color: azure;
+}

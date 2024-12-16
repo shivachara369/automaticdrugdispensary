@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    height: 50vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .head {
+    font-size: 4em;
+    margin-bottom: 20px;
+    margin-right: 350px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: flex-end;
+  }
+.green_btn {
+    background-color:  #65abd6;;
+	color: white;
+	margin: 10px;
+    border: none;
+	outline: none;
+	padding: 15px 0;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+    justify-content:flex-end;
+}
+.reg {
+  background-color: blue;
+  color: aliceblue;
+  width:50px;
+}
+
+  

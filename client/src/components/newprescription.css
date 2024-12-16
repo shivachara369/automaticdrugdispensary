@@ -1,0 +1,142 @@
+/* newprescription.css */
+.body {
+  background-image: url('https://thumbs.dreamstime.com/b/stethoscope-isolated-black-background-top-view-photograph-sterile-doctors-office-desk-medical-accessories-reflective-table-94174159.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+.prescription-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: -120%;
+  border-radius: 0; /* Remove border-radius to make the input box not curved */
+  border: 1px solid black;
+  background-color: black;
+  padding-top: -50%;
+}
+
+.patient-details,
+.medicine-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.patient-details label {
+  margin-bottom: 10px;
+}
+.medicine-inputs input {
+  margin-bottom: 5px;
+  color: #fff;
+  width: 400px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 0; /* Remove border-radius to make the input box not curved */
+  border: 1px solid #ccc; /* Add border to the input box */
+  padding: 8px; /* Add padding for better appearance */
+}
+
+
+.medicine-buttons {
+  display: flex; 
+  gap: 10px; /* Adjust the gap between buttons as needed */
+  justify-content: space-between;
+  margin-top: 10px;
+  /* width:100px;
+  height: 40px; */
+  border-radius: 5px;
+  background-color: #5886b0;
+  color: black;
+  border-color:rgb(14, 77, 111); 
+  cursor: pointer;
+}
+.medicine-buttons:hover {
+  background-color:rgb(14, 77, 111);
+}
+
+.medicine-buttons button {
+  flex:1;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.added-medicines {
+  text-align: right;
+  color: white;
+  margin-top: -20px;
+  padding-top: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: -2px;
+  text-align: center;
+  background-color:#6397c6;
+  color: black;
+  /* width:100px;
+  height: 40px;  */
+  border-radius: 5px;
+  border-color:rgb(14, 77, 111);
+  cursor: pointer;
+}
+.action-buttons:hover {
+  background-color:rgb(14, 77, 111);
+}
+
+
+.qr-code {
+  max-width: 100%;
+  height: auto;
+}
+/* Add these styles for the icons inside input fields */
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  color: white; 
+  margin-bottom: -3.5%
+  /* Set the icon color to white */
+}
+.input-container input {
+  padding-left: 30px; /* Adjust the padding as needed */
+}
+/* Add these styles to position the medicine suggestions below the input field */
+
+.medicine-suggestions {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: #fff; /* Set the background color of the suggestions */
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  max-height: 150px; /* Set a max height for the suggestions */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  z-index: 1; /* Ensure the suggestions appear above other elements */
+}
+
+.medicine-suggestions li {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee; /* Add a border between suggestions */
+}
+
+.medicine-suggestions li:last-child {
+  border-bottom: none; /* Remove border for the last suggestion */
+}
+.heading{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #6397c6;
+  font-size:40px;
+  font: bold;
+}
